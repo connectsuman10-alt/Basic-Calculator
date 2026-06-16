@@ -1,0 +1,32 @@
+html body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to right, aquamarine, purple);
+}
+.btn {
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 150px;
+  transition: all 0.45s;
+  cursor: pointer;
+  font-weight: bolder;
+  width: 56px;
+}
+.btn:hover {
+  background-color: rgb(159, 219, 245);
+}
+.row {
+  display: flex;
+  margin: 8px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+.row .input {
+  margin: 0;
+  padding: 10px 1px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+}
