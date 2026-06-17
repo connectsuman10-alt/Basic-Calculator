@@ -3,6 +3,11 @@ html body {
   width: 100%;
   font-family: "Roboto", sans-serif;
   background-image: linear-gradient(to right, aquamarine, purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
 }
 .btn {
   padding: 20px;
@@ -22,6 +27,7 @@ html body {
   margin: 8px 0;
   align-items: center;
   justify-content: space-around;
+  width: 100%;
 }
 .row .input {
   margin: 0;
@@ -29,4 +35,14 @@ html body {
   border: 2px solid black;
   border-radius: 5px;
   font-size: 20px;
+}
+@media (max-width: 480px) {
+  .btn {
+    padding: 14px;
+    width: 44px;
+    font-size: 14px;
+  }
+  .row .input {
+    font-size: 16px;
+  }
 }
