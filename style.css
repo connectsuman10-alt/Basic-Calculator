@@ -10,14 +10,14 @@ html body {
   min-height: 100vh;
 }
 .btn {
-  padding: 20px;
+  padding: 25px;
   margin: 0 3px;
   border: 2px solid black;
   border-radius: 150px;
   transition: all 0.45s;
   cursor: pointer;
   font-weight: bolder;
-  width: 56px;
+  width: 68px;
 }
 .btn:hover {
   background-color: rgb(159, 219, 245);
@@ -31,10 +31,11 @@ html body {
 }
 .row .input {
   margin: 0;
-  padding: 10px 1px;
+  padding: 15px 5px;
   border: 2px solid black;
   border-radius: 5px;
   font-size: 20px;
+  width: 100%;
 }
 @media (max-width: 480px) {
   .btn {
